@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
     docker: 
-      - image: circleci/node:10.1.0 # for the CircleCI "Convenience" image
+      - image: circleci/node:10.16.3 # for the CircleCI "Convenience" image
     steps:
       - checkout # check out the code in the project directory
       - restore_cache:
